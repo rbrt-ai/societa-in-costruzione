@@ -8,7 +8,9 @@ alternative e migliorare le proposte nel tempo.
 Usiamo dati, scienza, logica, esperienza e intelligenza collettiva. Non promettiamo una società
 perfetta e non chiediamo appartenenza politica.
 
-> La società non è qualcosa di immutabile: può essere progettata, verificata e migliorata insieme.
+<blockquote class="manifesto-thesis">
+  <p>La società non è qualcosa di immutabile: può essere progettata, verificata e migliorata insieme.</p>
+</blockquote>
 
 [Leggi il manifesto](manifesto.md){ .md-button .md-button--primary }
 [Esplora le proposte](proposte/index.md){ .md-button }

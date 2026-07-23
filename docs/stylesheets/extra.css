@@ -6,9 +6,25 @@
 }
 
 [data-md-color-scheme="default"] {
+  --md-primary-fg-color: #214f5c;
+  --md-primary-fg-color--light: #4f7d72;
+  --md-primary-fg-color--dark: #173d48;
+  --md-accent-fg-color: #966329;
+  --md-accent-fg-color--transparent: rgba(150, 99, 41, 0.12);
   --md-default-bg-color: #f7f6f1;
   --md-default-fg-color: #172d35;
   --md-typeset-a-color: #214f5c;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #214f5c;
+  --md-primary-fg-color--light: #4f7d72;
+  --md-primary-fg-color--dark: #173d48;
+  --md-accent-fg-color: #966329;
+  --md-accent-fg-color--transparent: rgba(150, 99, 41, 0.12);
+  --md-default-bg-color: #16232a;
+  --md-default-fg-color: #e7e2d8;
+  --md-typeset-a-color: #a9dbd0;
 }
 
 .md-header {
@@ -18,7 +34,7 @@
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
-  color: #172d35;
+  color: var(--md-default-fg-color);
   font-weight: 700;
   letter-spacing: -0.02em;
 }
@@ -28,12 +44,63 @@
   color: #214f5c;
 }
 
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+  color: #a9dbd0;
+}
+
+.md-typeset blockquote.manifesto-thesis {
+  border: 0;
+  border-top: 3px solid var(--md-accent-fg-color);
+  border-bottom: 3px solid var(--md-accent-fg-color);
+  color: var(--md-default-fg-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 2.5rem 0;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.md-typeset blockquote.manifesto-thesis p {
+  margin: 0;
+}
+
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: rgba(150, 99, 41, 0.12);
+}
+
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before {
+  background-color: var(--md-accent-fg-color);
+}
+
 .md-typeset .md-button {
   border-radius: 0.35rem;
 }
 
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
+  border-color: #a9dbd0;
+  color: #a9dbd0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary):hover,
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary):focus {
+  background-color: #a9dbd0;
+  color: #16232a;
+}
+
 .md-typeset table:not([class]) th {
   background-color: #eaf2ef;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background-color: #21363d;
 }
 
 @media (prefers-reduced-motion: reduce) {

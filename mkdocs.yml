@@ -31,7 +31,12 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.top
+    - toc.follow
     - search.highlight
     - search.share
     - content.action.edit
@@ -43,7 +48,7 @@ nav:
   - Principi: principi.md
   - Metodo: metodo.md
   - Proposte:
-      - Introduzione: proposte/index.md
+      - Proposte: proposte/index.md
       - Benessere psicologico: proposte/salute-mentale-territoriale.md
       - Apprendimento permanente: proposte/apprendimento-permanente.md
       - Template: proposte/template.md

@@ -8,7 +8,9 @@ casuale oppure con obiettivi comprensibili, verifiche e possibilità di corregge
 
 Società in Costruzione nasce da questa idea:
 
-> La società non è qualcosa di immutabile: può essere progettata, verificata e migliorata insieme.
+<blockquote class="manifesto-thesis">
+  <p>La società non è qualcosa di immutabile: può essere progettata, verificata e migliorata insieme.</p>
+</blockquote>
 
 ## Lo scopo
 
@@ -37,17 +39,16 @@ Il progetto cerca soluzioni capaci di:
 Nessun obiettivo decide da solo. Ogni scelta può favorire alcuni principi e metterne altri sotto
 pressione.
 
-## Cosa non siamo
+!!! warning "Cosa non siamo"
+    Società in Costruzione:
 
-Società in Costruzione:
-
-- non è un partito e non sostiene candidati;
-- non è un programma politico chiuso;
-- non è un forum senza regole;
-- non considera la popolarità una prova;
-- non affida decisioni sensibili a un algoritmo;
-- non promette di eliminare il disaccordo;
-- non inventa dati, partner, risultati o consenso.
+    - non è un partito e non sostiene candidati;
+    - non è un programma politico chiuso;
+    - non è un forum senza regole;
+    - non considera la popolarità una prova;
+    - non affida decisioni sensibili a un algoritmo;
+    - non promette di eliminare il disaccordo;
+    - non inventa dati, partner, risultati o consenso.
 
 ## Scienza e valori
 
@@ -95,3 +96,6 @@ Il progetto non sarà mai “finito”. Una società cambia, le conoscenze migli
 politiche possono divergere dalle intenzioni.
 
 La capacità di riconoscere un errore e cambiare direzione è parte del risultato, non una sconfitta.
+
+[Leggi i principi](principi.md){ .md-button .md-button--primary }
+[Scopri il metodo](metodo.md){ .md-button }
