@@ -77,3 +77,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/rbrt-ai/societa-in-costruzione
       name: Repository GitHub
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/societacostruzione.bsky.social
+      name: Società in Costruzione su Bluesky
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@societaideale
+      name: Società in Costruzione su Mastodon

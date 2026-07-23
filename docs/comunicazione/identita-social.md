@@ -1,5 +1,15 @@
 # Identità social
 
+## Canali attivi
+
+- [Bluesky — @societacostruzione.bsky.social](https://bsky.app/profile/societacostruzione.bsky.social)
+- [Mastodon — @societaideale@mastodon.social](https://mastodon.social/@societaideale)
+- [GitHub — repository e Discussions](https://github.com/rbrt-ai/societa-in-costruzione)
+
+I profili usano esclusivamente l'identità pubblica del progetto. Non sono collegati profili
+personali. LinkedIn verrà aggiunto solo quando sarà disponibile una pagina organizzazione
+separata.
+
 ## Nome e handle
 
 - **Nome visualizzato:** Società in Costruzione
