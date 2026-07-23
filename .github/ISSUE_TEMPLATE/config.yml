@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Leggi le istruzioni per contribuire
+    url: https://github.com/rbrt-ai/societa-in-costruzione/blob/main/CONTRIBUTING.md
+    about: Consulta CONTRIBUTING.md prima di inviare materiale complesso.

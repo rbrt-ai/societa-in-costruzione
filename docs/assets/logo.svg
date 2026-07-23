@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Società in Costruzione</title>
+  <g fill="none" stroke="#214f5c" stroke-width="3">
+    <path d="M18 19 32 12l14 7v17L32 51 18 36Z"/>
+    <path d="m18 19 14 8 14-8M32 27v24"/>
+  </g>
+  <g fill="#966329">
+    <circle cx="18" cy="19" r="4"/><circle cx="32" cy="12" r="4"/>
+    <circle cx="46" cy="19" r="4"/><circle cx="18" cy="36" r="4"/>
+    <circle cx="32" cy="51" r="4"/><circle cx="46" cy="36" r="4"/>
+    <circle cx="32" cy="27" r="4"/>
+  </g>
+</svg>

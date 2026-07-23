@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Società in Costruzione</title>
+  <rect width="64" height="64" rx="12" fill="#173d48"/>
+  <path d="M17 20 32 12l15 8v18L32 52 17 38Z" fill="none" stroke="#a9dbd0" stroke-width="3"/>
+  <circle cx="17" cy="20" r="4" fill="#c58b48"/><circle cx="32" cy="12" r="4" fill="#c58b48"/>
+  <circle cx="47" cy="20" r="4" fill="#c58b48"/><circle cx="32" cy="52" r="4" fill="#c58b48"/>
+</svg>

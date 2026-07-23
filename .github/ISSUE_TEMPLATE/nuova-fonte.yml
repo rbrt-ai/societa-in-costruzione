@@ -1,0 +1,63 @@
+name: Suggerisci una fonte
+description: Proponi una fonte reale da verificare e collegare a un tema o a una proposta.
+title: "[Fonte] "
+labels:
+  - fonte
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Titolo completo
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Autori o ente
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Anno
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Collegamento
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: dropdown
+    id: source-type
+    attributes:
+      label: Tipo di fonte
+      options:
+        - Studio
+        - Revisione sistematica
+        - Dati pubblici
+        - Norma
+        - Rapporto tecnico
+        - Altra pubblicazione
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Tema o proposta collegata
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Perché è pertinente?
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limiti conosciuti
+      description: Indica limiti, conflitti di interesse o dubbi rilevanti.
+    validations:
+      required: true

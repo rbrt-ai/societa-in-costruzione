@@ -1,0 +1,47 @@
+:root {
+  --md-primary-fg-color: #214f5c;
+  --md-primary-fg-color--light: #4f7d72;
+  --md-primary-fg-color--dark: #173d48;
+  --md-accent-fg-color: #966329;
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #f7f6f1;
+  --md-default-fg-color: #172d35;
+  --md-typeset-a-color: #214f5c;
+}
+
+.md-header {
+  box-shadow: 0 1px 0 rgba(23, 61, 72, 0.18);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: #172d35;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset blockquote {
+  border-left-color: #966329;
+  color: #214f5c;
+}
+
+.md-typeset .md-button {
+  border-radius: 0.35rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #eaf2ef;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,40 @@
+name: Segnala un errore
+description: Correggi un testo, un collegamento o un'informazione verificabile.
+title: "[Errore] "
+labels:
+  - correzione
+body:
+  - type: markdown
+    attributes:
+      value: "Grazie. Non inserire dati personali o materiale riservato."
+  - type: input
+    id: page
+    attributes:
+      label: Pagina o file
+      description: Dove si trova l'errore?
+      placeholder: "Esempio: /metodo/ oppure src/content/..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Che cosa non va?
+      description: Descrivi il problema in modo preciso.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correzione proposta
+      description: Indica la formulazione corretta e come verificarla.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Controlli
+      options:
+        - label: Ho verificato che non esista già una segnalazione simile.
+          required: true
+        - label: Non ho inserito dati personali.
+          required: true

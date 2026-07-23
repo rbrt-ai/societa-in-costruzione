@@ -1,0 +1,57 @@
+name: Suggerisci una proposta
+description: Presenta una prima idea da trasformare nel modello Markdown del progetto.
+title: "[Proposta] "
+labels:
+  - proposta
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Titolo
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Tema
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema affrontato
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Soluzione proposta
+    validations:
+      required: true
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Benefici ipotizzati
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Costi, rischi e possibili svantaggi
+    validations:
+      required: true
+  - type: textarea
+    id: open
+    attributes:
+      label: Questioni aperte e fonti mancanti
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Conferme
+      options:
+        - label: Ho distinto le ipotesi dai fatti.
+          required: true
+        - label: Non ho inserito fonti o numeri inventati.
+          required: true
