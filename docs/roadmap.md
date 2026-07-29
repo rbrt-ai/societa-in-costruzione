@@ -2,6 +2,21 @@
 
 La roadmap indica direzioni e condizioni, non date promesse.
 
+## Priorità immediata — Adozione e continuità
+
+Prima di ampliare il progetto è necessario renderne sostenibile la gestione. Le attività
+immediate sono:
+
+- individuare persone o organizzazioni disponibili ad assumere responsabilità definite;
+- costituire una governance distribuita, con più responsabili e poteri controllabili;
+- documentare il passaggio di consegne per repository, dominio e servizi, senza condividere
+  password o credenziali personali;
+- verificare la sostenibilità tecnica, editoriale e di moderazione prima di aumentare il volume
+  delle attività.
+
+Il trasferimento di risorse ufficiali non è automatico: richiede valutazione separata, verifiche,
+accessi revocabili e decisioni documentate.
+
 ## Fase 0 — Fondazioni pubbliche
 
 **Stato:** in corso

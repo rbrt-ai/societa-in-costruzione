@@ -1,5 +1,21 @@
 # Società in Costruzione
 
+## Progetto disponibile per adozione
+
+> **Società in Costruzione cerca persone, gruppi o organizzazioni che possano garantirne la
+> continuità.** Il promotore originario non può assicurare manutenzione o gestione continuativa.
+
+Chiunque può studiare il materiale, contribuire, creare un fork oppure proporsi per continuare il
+repository ufficiale. Non serve l’approvazione del promotore per creare versioni indipendenti nel
+rispetto delle licenze applicabili. Le versioni indipendenti devono però dichiarare chiaramente la
+propria autonomia e non suggerire approvazione, affiliazione o sostegno da parte del promotore o del
+repository ufficiale.
+
+Per stato, ruoli necessari, criteri e modalità di candidatura, consulta
+[ADOPTION.md](ADOPTION.md). Le decisioni provvisorie seguono [GOVERNANCE.md](GOVERNANCE.md).
+Le candidature possono iniziare nell’[issue pubblica di adozione](https://github.com/rbrt-ai/societa-in-costruzione/issues/2)
+senza pubblicare dati personali.
+
 Società in Costruzione è una piattaforma civica aperta per studiare problemi pubblici,
 confrontare alternative e migliorare proposte verificabili nel tempo.
 
@@ -16,6 +32,7 @@ benefici, costi, rischi, conflitti tra valori e questioni ancora aperte.
 - proposta modello sulla salute mentale territoriale;
 - proposta modello sull’apprendimento permanente;
 - regole di partecipazione, trasparenza e moderazione;
+- documentazione per adozione e governance distribuita;
 - kit di identità visiva e comunicazione.
 
 ## Sito e discussioni
@@ -45,6 +62,7 @@ mkdocs build --strict
 
 ```text
 docs/
+  adozione.md
   manifesto.md
   principi.md
   metodo.md
@@ -57,6 +75,9 @@ docs/
     identita-social.md
 .github/
   workflows/docs.yml
+ADOPTION.md
+GOVERNANCE.md
+LICENSE-CONTENT.md
 mkdocs.yml
 requirements-docs.txt
 ```
@@ -73,11 +94,17 @@ GitHub può trattare dati tecnici di accesso secondo la propria informativa.
 ## Contribuire
 
 Leggi [CONTRIBUTING.md](CONTRIBUTING.md) e il
-[Codice di condotta](CODE_OF_CONDUCT.md). Le proposte devono distinguere fatti, valori,
+[Codice di condotta](CODE_OF_CONDUCT.md). Per candidarti alla manutenzione o alla futura gestione,
+consulta [ADOPTION.md](ADOPTION.md). Le proposte devono distinguere fatti, valori,
 interpretazioni, stime e incertezze; indicare fonti reali; descrivere alternative e condizioni
 di modifica o abbandono.
 
 ## Licenza
 
-Il codice di configurazione è distribuito con licenza MIT. Prima di accettare contributi
-editoriali esterni verrà definita esplicitamente anche la licenza dei contenuti.
+- **Codice e configurazione:** licenza [MIT](LICENSE).
+- **Contenuti editoriali e documentazione:** licenza
+  [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE-CONTENT.md), salvo diversa
+  indicazione.
+- **Marchi, nomi e loghi:** la loro presenza nel repository non li concede automaticamente in
+  licenza come marchi registrati o segni distintivi e non autorizza a presentare un fork come
+  approvato o affiliato al progetto ufficiale.
