@@ -5,7 +5,7 @@ site_url: https://rbrt-ai.github.io/societa-in-costruzione/
 repo_url: https://github.com/rbrt-ai/societa-in-costruzione
 repo_name: rbrt-ai/societa-in-costruzione
 edit_uri: edit/main/docs/
-copyright: Società in Costruzione · Codice MIT · Licenza dei contenuti da definire
+copyright: Società in Costruzione · Codice MIT · Contenuti CC BY-SA 4.0
 
 theme:
   name: material
@@ -44,6 +44,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Adozione del progetto: adozione.md
   - Manifesto: manifesto.md
   - Principi: principi.md
   - Metodo: metodo.md

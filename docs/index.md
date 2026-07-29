@@ -15,6 +15,13 @@ perfetta e non chiediamo appartenenza politica.
 [Leggi il manifesto](manifesto.md){ .md-button .md-button--primary }
 [Esplora le proposte](proposte/index.md){ .md-button }
 
+!!! info "Il progetto cerca continuità"
+    Il promotore originario non può garantire una manutenzione stabile. Il materiale resta
+    disponibile e il progetto cerca persone, gruppi o organizzazioni interessati a contribuire o
+    a costruire una gestione distribuita e sostenibile.
+
+    [Scopri come contribuire o candidarti](adozione.md)
+
 ## Cosa trovi qui
 
 === "Manifesto"

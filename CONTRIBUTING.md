@@ -35,6 +35,46 @@ costi, risultati, studi o citazioni senza una fonte verificata.
 4. Esegui `mkdocs build --strict`.
 5. Apri una pull request usando il modello incluso.
 
+## Fork indipendenti
+
+Puoi creare e mantenere un fork indipendente senza chiedere l’approvazione del promotore, purché:
+
+- rispetti la licenza MIT per codice e configurazione;
+- rispetti la licenza CC BY-SA 4.0 per documentazione e contenuti editoriali;
+- conservi attribuzione, avvisi di licenza e indicazione delle modifiche;
+- non presenti il fork come versione ufficiale, approvata o affiliata senza un accordo esplicito.
+
+## Candidarsi come manutentore
+
+Il progetto cerca persone disponibili per manutenzione tecnica, revisione scientifica,
+moderazione, comunicazione e governance. Per candidarti:
+
+1. leggi [ADOPTION.md](ADOPTION.md) e [GOVERNANCE.md](GOVERNANCE.md);
+2. intervieni nell’[issue pubblica dedicata all’adozione](https://github.com/rbrt-ai/societa-in-costruzione/issues/2)
+   usando anche soltanto il tuo account GitHub;
+3. indica il ruolo di interesse, il tempo realisticamente disponibile e contributi pubblici utili
+   a valutare la candidatura;
+4. dichiara eventuali conflitti di interesse pertinenti senza pubblicare dati personali non
+   necessari;
+5. quando possibile, prepara una piccola issue, revisione o pull request per rendere verificabile il
+   modo di collaborare.
+
+Non pubblicare nome reale, email, recapiti, indirizzo o documenti di identità. Un eventuale scambio
+riservato verrà definito soltanto se necessario e con strumenti separati dal repository pubblico.
+
+## Governance e licenze dei contributi
+
+Le decisioni e le revisioni seguono la governance provvisoria descritta in
+[GOVERNANCE.md](GOVERNANCE.md).
+
+Inviando un contributo, dichiari di avere il diritto di pubblicarlo e accetti che:
+
+- codice, configurazione e script siano distribuiti con licenza MIT;
+- testi, manifesto, proposte, documentazione e contenuti editoriali siano distribuiti con licenza
+  CC BY-SA 4.0, salvo diversa indicazione esplicita.
+
+Non inviare materiale che non puoi concedere con la licenza applicabile.
+
 ## Regole di collaborazione
 
 - Critica argomenti e proposte, non persone.
@@ -44,4 +84,5 @@ costi, risultati, studi o citazioni senza una fonte verificata.
 - Accetta che un contributo possa essere corretto, unito o archiviato.
 
 La versione iniziale non dispone ancora di un comitato editoriale indipendente. I contributi sono
-valutati per chiarezza, verificabilità, trasparenza e aderenza al metodo.
+valutati per chiarezza, verificabilità, trasparenza, aderenza al metodo e compatibilità con
+[GOVERNANCE.md](GOVERNANCE.md).
